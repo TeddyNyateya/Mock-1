@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.main-header {
+    background-image: url("img/band1.jpg");
+    background-size: cover;
+    padding: 30px;
+    
+}
+
+.nav ul{
+    padding: 0px;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav a:hover{
+    background-color: burlywood; 
+}
+
+.main-nav {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+}
+.main-nav li {
+    padding: 0 5%;
+}
+
+.band-name {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bolder;
+   text-align: center;
+   font-size: x-large;
+   color: palegreen
+}
+.large-band-name {
+    font-size: 5em;
+}
+
+.content-section {
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+}
+
+.section-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    padding: 2em 0;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    display: flex;
+    text-align: end;
+}
+ 
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .2em;
+    cursor: pointer;
+}
+.btn-header {
+    margin: 2em 15% 2em 15%;
+    color: black;
+    border: rgb(12, 12, 248);
+    
